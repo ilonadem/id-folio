@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: visualizing black holes
+description: Producing black hole images from event horizon telescope data
 img:
-importance: 4
-category: fun
+importance: 3
+category: coursework
 ---
 
 Every project has a beautiful feature showcase page.

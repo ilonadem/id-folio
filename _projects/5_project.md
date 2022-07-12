@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: CNN for QEC
+description: Using convolutional neural networks to improve quantum error correction on IBM quantum computers
+img: # assets/img/1.jpg
+importance: 4
+category: coursework
 ---
 
 Every project has a beautiful feature showcase page.

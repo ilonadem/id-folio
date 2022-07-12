@@ -34,7 +34,7 @@
       institution: Disney Research Studios, Zurich
       year: May 2022 - present
       description:
-        - Secure, distributed training schema on image models
+        - Secure, distributed training schemas on image models
         # - Description 2.
         # - title: Description 3.
           # contents:
@@ -51,18 +51,22 @@
     - title: Software Engineering Intern
       institution: Dreams-AI, Cambridge UK
       year: May 2021 - Aug 2021
-      # description:
-      #   - asdf
+      description:
+        - Hierarchical deterministic wallet implementation for secure crypto deposits in USD
+        - Horse race betting model (profitably deployed on Hong Kong horse races) that calculates the real-time odds and places optimal bets
+        # - Deployment of lecture and homework platform for Hong Kong Polytech University physics department
 
     - title: AI Intern
       institution: Acronis
       year: Jan 2021 - April 2021
       description:
-        - pose detection models in basketball (NBA)
+        - Pose detection model in basketball (NBA) that analyzes free-throw technique from video
 
     - title: Software Engineering Intern
       institution: Cadence Design Systems, Boston MA
       year: May 2020 - Dec 2020
+      description:
+        - Surrogate modeling algorithms for faster and more efficient circuit simulation
 
     - title: Undergraduate Researcher
       institution: Ni Lab, Harvard Univeristy

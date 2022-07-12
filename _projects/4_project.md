@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: hd wallet
+description: Hierarchical deterministic wallet implementation for secure crypto holding platform
 img:
 importance: 3
-category: fun
+category: industry
 ---
 
 Every project has a beautiful feature showcase page.

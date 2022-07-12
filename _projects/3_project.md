@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: At-home posenet
+description: At-home pose monitoring on Google Coral device
+img: # assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
 category: work

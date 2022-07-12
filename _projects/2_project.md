@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: ML x FHE
+description: Homomorphic Encryption for image models suing SEAL library
+img: # assets/img/3.jpg
 importance: 2
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
