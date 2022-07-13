@@ -4,7 +4,7 @@ title: hd wallet
 description: Hierarchical deterministic wallet implementation for secure crypto holding platform
 img:
 importance: 3
-category: industry
+category: research
 ---
 
 Every project has a beautiful feature showcase page.

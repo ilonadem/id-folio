@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of past + ongoing projects.
 nav: true
 nav_order: 2
-display_categories: [research, industry, coursework, fun]
+display_categories: [research, coursework]
 horizontal: false
 ---
 

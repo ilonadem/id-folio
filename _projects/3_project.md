@@ -5,7 +5,7 @@ description: At-home pose monitoring on Google Coral device
 img: # assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
