@@ -1,8 +1,8 @@
 ---
 layout: page
-title: hd wallet
+title: hd wallet platform
 description: Hierarchical deterministic wallet implementation for secure crypto holding platform
-img:
+img: assets/img/hd-wallet.png
 importance: 3
 category: research
 ---

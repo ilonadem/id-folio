@@ -2,7 +2,7 @@
 layout: page
 title: At-home posenet
 description: At-home pose monitoring on Google Coral device
-img: # assets/img/7.jpg
+img: assets/img/posenet.png
 # redirect: https://unsplash.com
 importance: 3
 category: research

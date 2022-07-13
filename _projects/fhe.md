@@ -1,8 +1,8 @@
 ---
 layout: page
-title: ML x FHE
+title: Encrypted Training of Image Models
 description: Homomorphic Encryption for image models suing SEAL library
-img: # assets/img/3.jpg
+img: assets/img/tenseal.png
 importance: 2
 category: research
 ---
