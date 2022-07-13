@@ -1,7 +1,7 @@
 ---
 layout: page
-title: At-home posenet
-description: At-home pose monitoring on Google Coral device
+title: At-home posenet  devices
+description: Building a medical device for at-home motion capture analysis.
 img: assets/img/posenet.png
 # redirect: https://unsplash.com
 importance: 3
