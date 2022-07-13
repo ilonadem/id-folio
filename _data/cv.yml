@@ -94,19 +94,25 @@
 #       items: 
 #         - Max Planck Medal
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+- title: Extracurriculars
+  type: nested_list
+  contents:
+    - title: Harvard Womxn in Physics - current
+      items: 
+        - Co-chair
+        - Host events such as lab tours, study breaks, and professors and pastries
+    - title: Harvard student Radio (WHRB) - current
+      items: 
+        - TDS department
+        - Weekly radio broadcasts, nationally broadcast at 95.3fm or <a href="https://whrb.org">whrb.org</a>
+    - title: Harvard quantum computing club - past
+      items:
+        - vice president
+    - title: Small Claims Advisory Services - past
+      items:
+        - Help socioeconomically disadvantaged people navigate the small claims court system
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
