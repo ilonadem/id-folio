@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Encrypted Training of Image Models
-description: Homomorphic Encryption for image models suing SEAL library
+description: Homomorphic Encryption for image models using SEAL library
 img: assets/img/tenseal.png
 importance: 2
-category: research
+category: internships/research
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: visualizing black holes
-description: Producing black hole images from event horizon telescope data
+description: Producing black hole images from event horizon telescope data (APMTH216 final project)
 img: assets/img/blackhole.png
 importance: 3
 category: coursework

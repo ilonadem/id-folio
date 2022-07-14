@@ -5,7 +5,7 @@ description: Building a medical device for at-home motion capture analysis.
 img: assets/img/posenet.png
 # redirect: https://unsplash.com
 importance: 3
-category: research
+category: internships/research
 ---
 
 Goal: build a device capable of monitoring the movements of patients at home in order to assess the efficacy of neurodegenerative disease treatment.

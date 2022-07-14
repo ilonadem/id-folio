@@ -3,8 +3,8 @@ layout: page
 title: hd wallet platform
 description: Hierarchical deterministic wallet implementation for secure crypto holding platform
 img: assets/img/hd-wallet.png
-importance: 3
-category: research
+importance: 5
+category: internships/research
 ---
 
 Goal: Create a secure crypto depositing scheme, in which users deposit cryptocurrency by sending money to the public address associated with their account in our system. 

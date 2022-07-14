@@ -1,13 +1,13 @@
----
+<!-- ---
 layout: page
-title: submenus
+title: #submenus
 nav: true
 nav_order: 5
 dropdown: true
 children: 
-    - title: publications
+    - title: #publications
       permalink: /publications/
-    - title: divider
-    - title: projects
+    - title: #divider
+    - title: #projects
       permalink: /projects/
----
+--- -->

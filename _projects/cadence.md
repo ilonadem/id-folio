@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Surrogate modeling
-description: Faster and more efficient simulation of circuits
-img: # assets/img/qec.png
+description: Surrogate models for faster SPICE and PWL simulation of power supply circuits
+img: assets/img/pspice.jpg
 importance: 5
-category: research
+category: internships/research
 ---
