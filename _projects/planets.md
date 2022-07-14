@@ -6,3 +6,13 @@ img: assets/img/exoplanet.png
 importance: 4
 category: coursework
 ---
+
+**Goal:** 
+
+**Motivation:** 
+
+**TLDR:**
+- 
+- 
+
+**Code:** 
