@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Encrypted Training of Image Models
+title: encrypted image models
 description: Homomorphic Encryption for image models using Microsoft's SEAL library
 img: assets/img/tenseal.png
 importance: 2
 category: internships/research
 ---
+*[Project for Disney Research Studios]*
 
 **Goal:** Encrypt sensitive image data in a way that allows for training models on powerful but potentially insecure cloud servers.
 
@@ -16,4 +17,4 @@ category: internships/research
 - training a regular autoencoder with a subset of the model layers being encrypted (via the CKKS encryption scheme)
 - encrypting data and labels as a preprocessing step and training standard pytorch-based models that work on both encrypted and unencrypted data
 
-**Code:** proprietary :")
+**Code:** quite proprietary :")

@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Devices for at-home motion analysis
-description: Building a medical device for at-home motion capture analysis (Michael Brenner Lab)
+title: pose from home
+description: Building a medical device for at-home motion capture analysis to track neurodegenerative diseases (Brenner Lab)
 img: assets/img/posenet.png
 # redirect: https://unsplash.com
 importance: 2
 category: internships/research
 ---
+*[Project with Prof. Brenner at Harvard and doctors at Boston Children's Hospital]*
 
 **Goal:** Build a device capable of monitoring the movements of patients at home.
 
