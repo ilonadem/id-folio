@@ -124,8 +124,8 @@
   contents:
     - title: Academic
       items: 
-        - Harvard Faculty Scholarship
-        - John Harvard Scholar
+        # - Harvard Faculty Scholarship
+        - John Harvard Scholar (top 5% of class)
         - Dartmouth Book Award
         - National Latin Exam Silver Medal
     - title: Ballet
