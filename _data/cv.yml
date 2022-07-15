@@ -119,16 +119,21 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Honors and Awards
+  type: nested_list
+  contents:
+    - title: Academic
+      items: 
+        - Harvard Faculty Scholarship
+        - John Harvard Scholar
+        - Dartmouth Book Award
+        - National Latin Exam Silver Medal
+    - title: Ballet
+      items: 
+        - World Ballet Competition Finalist
+        - Youth America Grand Prix Finalist
+        - Youth America Grand Prix Top 12 New England
+        - Clara in Jose Matteo Ballet Theater Nutrcacker
 
 - title: Extracurriculars
   type: nested_list
@@ -141,6 +146,7 @@
       items: 
         - TDS department
         - Weekly radio broadcasts, nationally broadcast at 95.3fm or <a href="https://whrb.org">whrb.org</a>
+    
     - title: Harvard quantum computing club - past
       items:
         - vice president
@@ -150,6 +156,7 @@
     - title: Harvard Radcliffe Modern Dance Company - past
       items:
         - Choreograph and perform in semesterly showcases at the Loeb Theater
+    
 
 - title: Other Interests
   type: list
