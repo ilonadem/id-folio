@@ -32,3 +32,14 @@ We are currently deploying our model on a  <a href="https://coral.ai/">Google co
 <div class="caption">
     poseing in the lab!
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/motioncapture.jpg" title="coral1" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    poseing in Harvard's motion capture lab!
+</div>

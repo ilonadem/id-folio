@@ -2,13 +2,25 @@
 layout: page
 title: basketball pose analysis
 description: Detecting and analyzing human pose throughout freethrow motion
-img: assets/img/croppedbball.gif
+img: assets/img/bball2.png
 importance: 2
 category: internships/research
 ---
 *[Internship project for Acronis]*
 
 **Goal:** Build an application that analyzes basketball free throws from input smartphone video. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/bball.gif" title="Basketball pose detectio ndemo" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    (after many failed freethrow attempts...)
+</div>
+
 
 **Motivation:** We were approached by an NBA client for basketball analysis applications for both players and fans.
 
@@ -24,14 +36,3 @@ An interesting extension of this project would be mapping the video to a well-kn
 **Code:** proprietary :')
 
 But here is a fun demo (of me) being analyzed:
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-    <center>
-        {% include figure.html path="assets/img/bball.gif" title="Basketball pose detectio ndemo" class="img-fluid rounded z-depth-1" %}
-    </center>
-    </div>
-</div>
-<div class="caption">
-    (after many failed freethrow attempts...)
-</div>

@@ -8,56 +8,102 @@
 #     - name: Languages
 #       value: English, Russian
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: B.A. in physics
-#       institution: Harvard College, Cambridge MA
-#       year: May 2023
-#       description:
-#         - title: gap year during covid fall 2020 + spring 2021 
-#           contents:
-#             - spent quarantine working in industry and then a startup
-#       #   - Description 2.
-#         - title: Relevant Coursework
-#           contents:
-#             - MIT 6.819 - Computer Vision
-#             - MIT 6.036 - Introduction to Machine Learning
-#             - APMTH 216 - Inverse Problems in Science and Engineering
-#             - CS 109a - Introduction to Data Science
-#             - STATS 110 - Introduction to Statistics and Probability
-#             - PHYS 181 - Statistical Mechanics
-#             - PHYS 160 - Introduction to Quantum Information
-#             - MA 23a/b - Linear Algebra and Real Analysis
-#     - title: High School Diploma
-#       institution: Boston University Academy
-#       year: 2018
-#       description:
-#         - title: Boston University Relevant Coursework (concurrent enrollment)
-#           contents:
-#             - CS 210 - Computer Systems
-#             - MA 226 - Differential Equations
-#             - MA 242 - Linear Algebra
-#             - MA 225 - Multivariate Calculus
-#             - MA 129 - Honors Calculus
-#             - CS 111 - Intro Computer Science
+- title: Education
+  type: time_table
+  contents:
+    - title: B.A. in physics, secondary in computer science
+      institution: Harvard College, Cambridge MA
+      year: May 2023
+      description:
+        # - title: gap year during covid fall 2020 + spring 2021 
+        #   contents:
+        #     - spent quarantine working in industry and then a startup
+      #   - Description 2.
+        - title: Relevant Coursework
+          contents:
+            - MIT 6.S980 - ML for Inverse Graphics
+            - CS 120 - Algorithms
+            - MIT 6.819 - Computer Vision
+            - MIT 6.036 - Machine Learning
+            - APMTH 216 - Inverse Problems in Science and Engineering
+            - CS 109a - Data Science
+            - STATS 110 - Statistics and Probability
+            - PHYS 181 - Statistical Mechanics
+            - PHYS 160 - to Quantum Information
+            - PHYS 153 - Electrodynamics
+            - MA 23a/b - Linear Algebra and Real Analysis
+    - title: High School Diploma (summa cum laude)
+      institution: Boston University Academy
+      year: 2018
+      description: 
+        - title: Boston University Relevant Coursework (dual enrollment)
+          contents:
+            - CS 210 - Computer Systems
+            - MA 226 - Differential Equations
+            - CS 111 - Python I
+            - MA 242 - Linear Algebra
+            - MA 225 - Multivariate Calculus
+            - MA 129 - Honors Calculus
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Research Intern
-#       institution: Disney Research Studios, Zurich
-#       year: May 2022 - present
-#       description:
-#         - title: Secure, distributed training schemas on image models
-#           contents:
-#             - Synthetic gradients and message passing between models
-#             - Replacing backpropagation by approximating gradients w/ jacobian vector products
-#         # - Description 2.
-#         # - title: Description 3.
-#           # contents:
-#           #   - method of forward gradients
-#           #   - Sub-description 2.
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Computer Languages
+      items: Python, C++, javascript, HTML/CSS, Mathematica
+    - title: Computer Tools
+      items: Git, Pytorch, Pytorch lightning, Tensorflow, JAX, Ray, Qiskit, SQL, gstreamer
+      
+    # - title: Ballet
+    #   items: 
+    #     - World Ballet Competition Finalist
+    #     - Youth America Grand Prix Finalist
+    #     - Youth America Grand Prix Top 12 New England
+    #     - Clara in Jose Matteo Ballet Theater Nutrcacker
+
+- title: Experience
+  type: time_table
+  contents:
+
+    - title: Undergraduate Researcher
+      institution: Brenner Lab, Harvard University
+      year: Apr 2022 - present
+      description: Pose models in devices for running clinical trials from home.
+        # - title: Pose models in at-home medical devices
+          # contents:
+          #   - Training + fine-tuning pose-detection model in google coral device for at-home monitoring of neurodegenerative disease treatment progress
+        # - Tuning pre-built pose-detection models and deploying on google coral device  
+        # - Drug trial to begin in fall 2022
+
+    - title: Research Intern
+      institution: Disney Research Studios, Zurich
+      year: Jun 2022 - Aug 2022
+      description: secure, distributed training of image models
+    
+    - title: Software Engineering Intern
+      institution: Dreams-AI, Cambridge UK
+      year: Apr 2021 - Aug 2021
+      description: crypto and ML for online gaming systems
+
+    - title: AI Intern
+      institution: Acronis
+      year: Jan 2021 - Mar 2021
+      description: pose estimation for basketball
+
+    - title: Software Engineering Intern
+      institution: Cadence Design Systems
+      year: Jun 2020 - Dec 2020
+      description: surrogate modeling of computer circuits
+
+    - title: PRISE Research Fellow
+      institution: Ni Lab, Harvard University
+      year: Jun 2020 - Aug 2020
+      description: atomic and molecular optics research
+
+        # - Description 2.
+        # - title: Description 3.
+          # contents:
+          #   - method of forward gradients
+          #   - Sub-description 2.
 #     - title: Undergraduate Researcher
 #       institution: Brenner Lab, Harvard University
 #       year: April 2022 - present
@@ -135,27 +181,27 @@
 #         - Youth America Grand Prix Top 12 New England
 #         - Clara in Jose Matteo Ballet Theater Nutrcacker
 
-# - title: Extracurriculars
-#   type: nested_list
-#   contents:
-#     - title: Harvard Womxn in Physics - current
-#       items: 
-#         - Co-chair
-#         - Host events such as lab tours, study breaks, and professors and pastries
-#     - title: Harvard student Radio (WHRB) - current
-#       items: 
-#         - TDS department
-#         - Weekly radio broadcasts, nationally broadcast at 95.3fm or <a href="https://whrb.org">whrb.org</a>
+- title: Extracurriculars
+  type: nested_list
+  contents:
+    - title: Harvard Women in Physics - current
+      items: 
+        - Building an inclusive, welcoming community for undergraduate WiPs. Organize events with faculty, lab tours, and collaborate with graduate WiP for mentorship and research opportunities.
     
-#     - title: Harvard quantum computing club - past
-#       items:
-#         - vice president
-#     - title: Small Claims Advisory Services - past
-#       items:
-#         - Help socioeconomically disadvantaged people navigate the small claims court system
-#     - title: Harvard Radcliffe Modern Dance Company - past
-#       items:
-#         - Choreograph and perform in semesterly showcases at the Loeb Theater
+    - title: Harvard student Radio (WHRB) - current
+      items: 
+        - TDS department
+        - Give weekly radio broadcasts specializing in hip hop, rhythm and blues, and rap music. Interview artists and write reviews of local shows, published on radio website (whrb.org).
+   
+    - title: Harvard quantum computing club - past
+      items:
+        - vice president
+    - title: Small Claims Advisory Services - past
+      items:
+        - Help socioeconomically disadvantaged people navigate the small claims court system
+    - title: Harvard Radcliffe Modern Dance Company - past
+      items:
+        - Choreograph and perform in semesterly showcases at the Loeb Theater
     
 
 # - title: Other Interests

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: encrypted image models
+title: encrypted ML
 description: Homomorphic Encryption for image models using Microsoft's SEAL library
 img: assets/img/tenseal.png
-importance: 2
+importance: 3
 category: internships/research
 ---
 *[Project for Disney Research Studios]*

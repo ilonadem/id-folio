@@ -3,7 +3,7 @@ layout: page
 title: replacing backprop
 description: Synthetic gradients, forward gradients, and random projections for distributed training
 img: assets/img/sg-setup.png
-importance: 1
+importance: 2
 category: internships/research
 ---
 *[Project for Disney Research Studios]*
