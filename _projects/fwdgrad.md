@@ -1,7 +1,7 @@
 ---
 layout: page
 title: replacing backprop
-description: Synthetic gradients, forward gradients, and random projections for distributed training
+description: training w/ synthetic gradients, forward gradients, and random projections 
 img: assets/img/sg-setup.png
 importance: 2
 category: internships/research

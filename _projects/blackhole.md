@@ -10,6 +10,17 @@ blackhole_pdf:
 
 **Goal:** Reconstruct images of the black hole from VLBI data collected by the Event Horizon Telescope.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/closure_static.png" title="Black Hole" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<!-- <div class="caption">
+    one of our black hole visualizations
+</div> -->
+
 **Motivation:** Black holes are difficult to image not only because they absorb all visible light, but because they are also located at such great distances away from earth. At observable wavelengths, standard telescopes are not powerful enough to resolve them.
 
 VLBI (very long baseline interferometry) is a technique designed to handle this problem. It combines measurements taken by arrays of telescopes positioned at distances away from each other all around earth, and measures the Fourier components of the sky image on baselines between the telescopes.
