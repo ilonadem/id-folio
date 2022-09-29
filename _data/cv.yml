@@ -8,157 +8,157 @@
 #     - name: Languages
 #       value: English, Russian
 
-- title: Education
-  type: time_table
-  contents:
-    - title: B.A. in physics
-      institution: Harvard College, Cambridge MA
-      year: May 2023
-      description:
-        - title: gap year during covid fall 2020 + spring 2021 
-          contents:
-            - spent quarantine working in industry and then a startup
-      #   - Description 2.
-        - title: Relevant Coursework
-          contents:
-            - MIT 6.819 - Computer Vision
-            - MIT 6.036 - Introduction to Machine Learning
-            - APMTH 216 - Inverse Problems in Science and Engineering
-            - CS 109a - Introduction to Data Science
-            - STATS 110 - Introduction to Statistics and Probability
-            - PHYS 181 - Statistical Mechanics
-            - PHYS 160 - Introduction to Quantum Information
-            - MA 23a/b - Linear Algebra and Real Analysis
-    - title: High School Diploma
-      institution: Boston University Academy
-      year: 2018
-      description:
-        - title: Boston University Relevant Coursework (concurrent enrollment)
-          contents:
-            - CS 210 - Computer Systems
-            - MA 226 - Differential Equations
-            - MA 242 - Linear Algebra
-            - MA 225 - Multivariate Calculus
-            - MA 129 - Honors Calculus
-            - CS 111 - Intro Computer Science
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Intern
-      institution: Disney Research Studios, Zurich
-      year: May 2022 - present
-      description:
-        - title: Secure, distributed training schemas on image models
-          contents:
-            - Synthetic gradients and message passing between models
-            - Replacing backpropagation by approximating gradients w/ jacobian vector products
-        # - Description 2.
-        # - title: Description 3.
-          # contents:
-          #   - method of forward gradients
-          #   - Sub-description 2.
-    - title: Undergraduate Researcher
-      institution: Brenner Lab, Harvard University
-      year: April 2022 - present
-      description:
-        - title: Pose models in at-home medical devices
-          contents:
-            - Training + fine-tuning pose-detection model in google coral device for at-home monitoring of neurodegenerative disease treatment progress
-        # - Tuning pre-built pose-detection models and deploying on google coral device  
-        # - Drug trial to begin in fall 2022
-
-    - title: Software Engineering Intern
-      institution: Dreams-AI, startup in Cambridge UK
-      year: May 2021 - Aug 2021
-      description:
-        - Hierarchical deterministic wallet implementation for secure crypto deposits in USDT
-        - Horse race betting model (profitably deployed on Hong Kong horse races) that calculates the real-time odds and places optimal bets
-        - Bayesian inference model on optimizing restaurant menu options
-
-    - title: AI Intern
-      institution: Acronis
-      year: Jan 2021 - April 2021
-      description:
-        - Pose detection model in basketball (NBA) that analyzes free-throw technique from video
-
-    - title: Software Engineering Intern
-      institution: Cadence Design Systems, Boston MA
-      year: May 2020 - Dec 2020
-      description:
-        - Surrogate modeling algorithms for faster and more efficient circuit simulation
-
-    - title: Co-Author
-      institution: Harvard Program on Negotiation
-      year: Dec 2019 - June 2020
-      description:
-        - co-authored a curriculum on teaching negotiation techniques in high school classrooms
-        - field tested materials in high schools all around the nation
-        - manuscript was accepted and will soon be published and publicly avaiable on the program on negotiation website
-        
-    - title: Undergraduate Researcher
-      institution: Ni Lab, Harvard Univeristy
-      year: June 2019 - Dec 2019
-      description:
-        - tunable focus lens hardware setup + algorithm for automated temperature-correction in optical tweezer systems
-        - PRISE fellowship
-
-    - title: Senior Thesis
-      institution: Dr. Lyle Michelli at Boston Children's Hospital
-      year: Aug 2017 - May 2018
-      description:
-        - researched injury incidence and prevention in young dancers, focusing on the growth spurt age
-        - published manuscript <a href="https://www.amazon.com/Injury-Incidence-Prevention-Young-Dancer/dp/1719217246">(available on Amazon)</a>
-
-
-
-# - title: Open Source Projects
+# - title: Education
 #   type: time_table
 #   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#     - title: B.A. in physics
+#       institution: Harvard College, Cambridge MA
+#       year: May 2023
+#       description:
+#         - title: gap year during covid fall 2020 + spring 2021 
+#           contents:
+#             - spent quarantine working in industry and then a startup
+#       #   - Description 2.
+#         - title: Relevant Coursework
+#           contents:
+#             - MIT 6.819 - Computer Vision
+#             - MIT 6.036 - Introduction to Machine Learning
+#             - APMTH 216 - Inverse Problems in Science and Engineering
+#             - CS 109a - Introduction to Data Science
+#             - STATS 110 - Introduction to Statistics and Probability
+#             - PHYS 181 - Statistical Mechanics
+#             - PHYS 160 - Introduction to Quantum Information
+#             - MA 23a/b - Linear Algebra and Real Analysis
+#     - title: High School Diploma
+#       institution: Boston University Academy
+#       year: 2018
+#       description:
+#         - title: Boston University Relevant Coursework (concurrent enrollment)
+#           contents:
+#             - CS 210 - Computer Systems
+#             - MA 226 - Differential Equations
+#             - MA 242 - Linear Algebra
+#             - MA 225 - Multivariate Calculus
+#             - MA 129 - Honors Calculus
+#             - CS 111 - Intro Computer Science
 
-- title: Honors and Awards
-  type: nested_list
-  contents:
-    - title: Academic
-      items: 
-        # - Harvard Faculty Scholarship
-        - John Harvard Scholar (top 5% of class)
-        - Dartmouth Book Award
-        - National Latin Exam Silver Medal
-    - title: Ballet
-      items: 
-        - World Ballet Competition Finalist
-        - Youth America Grand Prix Finalist
-        - Youth America Grand Prix Top 12 New England
-        - Clara in Jose Matteo Ballet Theater Nutrcacker
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Research Intern
+#       institution: Disney Research Studios, Zurich
+#       year: May 2022 - present
+#       description:
+#         - title: Secure, distributed training schemas on image models
+#           contents:
+#             - Synthetic gradients and message passing between models
+#             - Replacing backpropagation by approximating gradients w/ jacobian vector products
+#         # - Description 2.
+#         # - title: Description 3.
+#           # contents:
+#           #   - method of forward gradients
+#           #   - Sub-description 2.
+#     - title: Undergraduate Researcher
+#       institution: Brenner Lab, Harvard University
+#       year: April 2022 - present
+#       description:
+#         - title: Pose models in at-home medical devices
+#           contents:
+#             - Training + fine-tuning pose-detection model in google coral device for at-home monitoring of neurodegenerative disease treatment progress
+#         # - Tuning pre-built pose-detection models and deploying on google coral device  
+#         # - Drug trial to begin in fall 2022
 
-- title: Extracurriculars
-  type: nested_list
-  contents:
-    - title: Harvard Womxn in Physics - current
-      items: 
-        - Co-chair
-        - Host events such as lab tours, study breaks, and professors and pastries
-    - title: Harvard student Radio (WHRB) - current
-      items: 
-        - TDS department
-        - Weekly radio broadcasts, nationally broadcast at 95.3fm or <a href="https://whrb.org">whrb.org</a>
+#     - title: Software Engineering Intern
+#       institution: Dreams-AI, startup in Cambridge UK
+#       year: May 2021 - Aug 2021
+#       description:
+#         - Hierarchical deterministic wallet implementation for secure crypto deposits in USDT
+#         - Horse race betting model (profitably deployed on Hong Kong horse races) that calculates the real-time odds and places optimal bets
+#         - Bayesian inference model on optimizing restaurant menu options
+
+#     - title: AI Intern
+#       institution: Acronis
+#       year: Jan 2021 - April 2021
+#       description:
+#         - Pose detection model in basketball (NBA) that analyzes free-throw technique from video
+
+#     - title: Software Engineering Intern
+#       institution: Cadence Design Systems, Boston MA
+#       year: May 2020 - Dec 2020
+#       description:
+#         - Surrogate modeling algorithms for faster and more efficient circuit simulation
+
+#     - title: Co-Author
+#       institution: Harvard Program on Negotiation
+#       year: Dec 2019 - June 2020
+#       description:
+#         - co-authored a curriculum on teaching negotiation techniques in high school classrooms
+#         - field tested materials in high schools all around the nation
+#         - manuscript was accepted and will soon be published and publicly avaiable on the program on negotiation website
+        
+#     - title: Undergraduate Researcher
+#       institution: Ni Lab, Harvard Univeristy
+#       year: June 2019 - Dec 2019
+#       description:
+#         - tunable focus lens hardware setup + algorithm for automated temperature-correction in optical tweezer systems
+#         - PRISE fellowship
+
+#     - title: Senior Thesis
+#       institution: Dr. Lyle Michelli at Boston Children's Hospital
+#       year: Aug 2017 - May 2018
+#       description:
+#         - researched injury incidence and prevention in young dancers, focusing on the growth spurt age
+#         - published manuscript <a href="https://www.amazon.com/Injury-Incidence-Prevention-Young-Dancer/dp/1719217246">(available on Amazon)</a>
+
+
+
+# # - title: Open Source Projects
+# #   type: time_table
+# #   contents:
+# #     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+# #       year: 2015-now
+# #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Honors and Awards
+#   type: nested_list
+#   contents:
+#     - title: Academic
+#       items: 
+#         # - Harvard Faculty Scholarship
+#         - John Harvard Scholar (top 5% of class)
+#         - Dartmouth Book Award
+#         - National Latin Exam Silver Medal
+#     - title: Ballet
+#       items: 
+#         - World Ballet Competition Finalist
+#         - Youth America Grand Prix Finalist
+#         - Youth America Grand Prix Top 12 New England
+#         - Clara in Jose Matteo Ballet Theater Nutrcacker
+
+# - title: Extracurriculars
+#   type: nested_list
+#   contents:
+#     - title: Harvard Womxn in Physics - current
+#       items: 
+#         - Co-chair
+#         - Host events such as lab tours, study breaks, and professors and pastries
+#     - title: Harvard student Radio (WHRB) - current
+#       items: 
+#         - TDS department
+#         - Weekly radio broadcasts, nationally broadcast at 95.3fm or <a href="https://whrb.org">whrb.org</a>
     
-    - title: Harvard quantum computing club - past
-      items:
-        - vice president
-    - title: Small Claims Advisory Services - past
-      items:
-        - Help socioeconomically disadvantaged people navigate the small claims court system
-    - title: Harvard Radcliffe Modern Dance Company - past
-      items:
-        - Choreograph and perform in semesterly showcases at the Loeb Theater
+#     - title: Harvard quantum computing club - past
+#       items:
+#         - vice president
+#     - title: Small Claims Advisory Services - past
+#       items:
+#         - Help socioeconomically disadvantaged people navigate the small claims court system
+#     - title: Harvard Radcliffe Modern Dance Company - past
+#       items:
+#         - Choreograph and perform in semesterly showcases at the Loeb Theater
     
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Tennis, ballet, running, swimming
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Tennis, ballet, running, swimming

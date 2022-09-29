@@ -2,7 +2,7 @@
 layout: page
 title: basketball pose analysis
 description: Detecting and analyzing human pose throughout freethrow motion
-img: assets/img/bball.jpg
+img: assets/img/croppedbball.gif
 importance: 2
 category: internships/research
 ---
@@ -24,3 +24,14 @@ An interesting extension of this project would be mapping the video to a well-kn
 **Code:** proprietary :')
 
 But here is a fun demo (of me) being analyzed:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/bball.gif" title="Basketball pose detectio ndemo" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    (after many failed freethrow attempts...)
+</div>

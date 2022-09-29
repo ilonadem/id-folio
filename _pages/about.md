@@ -5,8 +5,8 @@ permalink: /
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
-  image: # prof_pic.jpg
+  align: center
+  image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
     <p>121 Dewolfe St. </p>
@@ -18,7 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a physics undergraduate at Harvard interested in physics-informed approaches to training neural networks and computer vision problems. 
+I am a senior at Harvard concentrating in physics with a secondary in computer science.  I'm interested in physics-informed approaches to training neural networks and computer vision problems.
+
+Over the past few years I've dabbled in pose detection, automatic differentiation, encryption for secure ML, astronomy visualization, and cryptocurrencies.
+
+In my past life I was training to become a professional ballerina at the Bolshoi Ballet Academy in Moscow. I'm excited by the intersection of the arts with the sciences, and the "dance" of physics through topics of machine learning, computer vision, biology, and astronomy.
+
+<!-- I am a physics undergraduate at Harvard interested in physics-informed approaches to training neural networks and computer vision problems.  -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

@@ -2,9 +2,9 @@
 layout: page
 title: pose from home
 description: Building a medical device for at-home motion capture analysis to track neurodegenerative diseases (Brenner Lab)
-img: assets/img/posenet.png
+img: assets/img/coral2.jpg
 # redirect: https://unsplash.com
-importance: 2
+importance: 1
 category: internships/research
 ---
 *[Project with Prof. Brenner at Harvard and doctors at Boston Children's Hospital]*
@@ -21,3 +21,14 @@ category: internships/research
 **Code:** <a href="https://github.com/ilonadem/posebucket">PoseBucket Github repo</a> (at the moment very bare-bones, as we are still developing the fine-tuned model)
 
 We are currently deploying our model on a  <a href="https://coral.ai/">Google coral device</a> and fine-tunning a <a href="https://github.com/ilonadem/project-posenet">PoseNet model</a> by comparing to time-series data taken in Harvard's 3D motion capture lab. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/coral.jpg" title="coral1" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    poseing in the lab!
+</div>
