@@ -35,4 +35,4 @@ An interesting extension of this project would be mapping the video to a well-kn
 
 **Code:** proprietary :')
 
-But here is a fun demo (of me) being analyzed:
+<!-- But here is a fun demo (of me) being analyzed: -->

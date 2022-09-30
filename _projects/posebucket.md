@@ -11,16 +11,16 @@ category: internships/research
 
 **Goal:** Build a device capable of monitoring the movements of patients at home.
 
-**Motivation:** Researchers at Boston Children's Hospital are developing drugs for treating neurodegenerative diseases at the invidivudal level. Testing the efficacy of such treatments is difficult because it is impossible to conduct large-scale clinical trials, and it is unfeasible to have patients come in every month to perform detailed motion-lab analysis. Furthermore, for privacy reasons these devices cannot store any video data for patients, and must perform instead perform immedeate pose analysis.
+**Motivation:** Continuous monitoring of patients in clinical trials has the potential to revolutionize the field of medicine and drug discover. For privacy reasons, devices for doing this cannot store any video data for patients, and must instead perform immedeate pose analysis.
 
 **Method:** There are several aspects of this project that we are focusing on:
 - fine-tuning existing pose models to better fit patients with movement abnormalities
 - determining which pose information correlates with disease progress
 - setting up a data pipeline for regularly uploading motion information to the cloud (and accounting for potential crashes or device restarts)
 
-**Code:** <a href="https://github.com/ilonadem/posebucket">PoseBucket Github repo</a> (at the moment very bare-bones, as we are still developing the fine-tuned model)
+**Code:** <a href="https://github.com/ilonadem/posebucket">PoseBucket Github repo</a> (at the moment very bare-bones, as we are still putting finishing touches on our models and filling out proper documentation etc.)
 
-We are currently deploying our model on a  <a href="https://coral.ai/">Google coral device</a> and fine-tunning a <a href="https://github.com/ilonadem/project-posenet">PoseNet model</a> by comparing to time-series data taken in Harvard's 3D motion capture lab. 
+We are currently deploying our model on a  <a href="https://coral.ai/">Google coral device</a> and fine-tunning a <a href="https://github.com/ilonadem/project-posenet">PoseNet model</a> by comparing to time-series data taken in Harvard's 3D motion capture lab. The device is set to be used in an upcoming funded clinical trial for a neurodogenerative disease treatment drug. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -41,5 +41,5 @@ We are currently deploying our model on a  <a href="https://coral.ai/">Google co
     </div>
 </div>
 <div class="caption">
-    poseing in Harvard's motion capture lab!
+    Poseing in Harvard's motion capture lab! We used 3d motion capture lab data to finetune the 2d pose estimation models on our device. 
 </div>

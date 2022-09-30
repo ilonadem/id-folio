@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of past + ongoing projects.
+description: A collection of past + ongoing projects.
 nav: true
 nav_order: 2
 display_categories: [internships/research, coursework, fun/misc]

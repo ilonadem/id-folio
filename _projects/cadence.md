@@ -14,8 +14,7 @@ category: internships/research
 
 Simulating high performance computing circuit boards is often non-convergent or prohibitively computationally expensive. The goal is to model SPICE (simulation program with IC emphasis) simulations quickly and accurately via surrogate models. 
 
-<!-- **TLDR:**
-- 
--  -->
-
-**Code:** proprietary :')
+**Code:** proprietary :'), but this project contained a lot of:
+- python wrapped C++ of SPICE model simulation outputs
+- <a href="https://github.com/ray-project/ray">Ray</a> parallelization infrastructure
+- virtual machines
