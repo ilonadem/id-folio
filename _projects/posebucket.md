@@ -7,7 +7,20 @@ img: assets/img/coral2.jpg
 importance: 1
 category: internships/research
 ---
+<center>
 *[Project with Prof. Brenner at Harvard and doctors at Boston Children's Hospital]*
+</center>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    <center>
+        {% include figure.html path="assets/img/animation.gif" title="Coral Demo" class="img-fluid rounded z-depth-1" %}
+    </center>
+    </div>
+</div>
+<div class="caption">
+    Human, as seen through keypoint analysis.
+</div>
 
 **Goal:** Build a device capable of monitoring the movements of patients at home.
 

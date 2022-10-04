@@ -4,7 +4,7 @@ title: tunable lenses
 description: Tunable focal lens for dynamic tempearture correction and controlling molecules in optical tweezer systems (Kang-Kuen Ni Lab)
 img: assets/img/lens.png
 # redirect: https://unsplash.com
-importance: 6
+importance: 8
 category: internships/research
 ---
 
