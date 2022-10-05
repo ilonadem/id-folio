@@ -1,7 +1,7 @@
 ---
 layout: page
 title: injury prevention in young dancers
-description: Injury incidence and prevention in the young dancer
+description: High school senior thesis.
 img: assets/img/dance.jpg
 importance: 3
 category: fun/misc

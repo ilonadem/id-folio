@@ -24,7 +24,7 @@ category: internships/research
 
 **Goal:** Build a device capable of monitoring the movements of patients at home.
 
-**Motivation:** Continuous monitoring of patients in clinical trials has the potential to revolutionize the field of medicine and drug discover. For privacy reasons, devices for doing this cannot store any video data for patients, and must instead perform immedeate pose analysis.
+**Motivation:** Continuous monitoring of patients in clinical trials has the potential to revolutionize the field of medicine and drug discovery. For privacy reasons, devices for doing this cannot store any video data for patients, and must instead perform immedeate pose analysis.
 
 **Method:** There are several aspects of this project that we are focusing on:
 - fine-tuning existing pose models to better fit patients with movement abnormalities

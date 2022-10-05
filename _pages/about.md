@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior at Harvard concentrating in physics with a secondary in computer science.  I'm interested in physics-informed approaches to training neural networks and computer vision problems.
+I am a senior at Harvard concentrating in physics with a secondary in computer science.  I'm interested in physics-informed approaches to training neural networks and computer vision problems, and using computational tools like machine learning for problems in science.
 
 Over the past few years I've dabbled in pose detection, automatic differentiation, encryption for secure ML, astronomy visualization, and cryptocurrencies.
 

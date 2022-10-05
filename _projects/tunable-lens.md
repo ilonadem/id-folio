@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: tunable lenses
 description: Tunable focal lens for dynamic tempearture correction and controlling molecules in optical tweezer systems (Kang-Kuen Ni Lab)
@@ -53,4 +53,4 @@ the current being supplied to the tunable lens.
 - built tunable lens system
 - programmed a temperature correction routine for refocusing laser beam
 
-**Code:** proprietary :')
+**Code:** proprietary :') -->

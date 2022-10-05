@@ -4,7 +4,7 @@ title: cnn for quantum error correction
 description: Using convolutional neural networks to improve quantum error correction on IBM quantum computers (PHY160 final project)
 img: assets/img/qec.png
 importance: 4
-category: coursework
+category: course projects
 ---
 
 **Goal:** Implement a quantum conovlutional neural network that can be used for quantum error correction without logical qubit wavefunction collapse. The goal is to maximize the recovery fidelity of a quantum circuit.
