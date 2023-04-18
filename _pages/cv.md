@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-# redirect: ilona_cv.pdf
+redirect: #assets/pdf/ilona_cv.pdf
 cv_pdf: ilona_cv.pdf
 ---
