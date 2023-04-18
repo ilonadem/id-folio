@@ -1,13 +1,13 @@
-<!-- ---
+---
 layout: page
 title: #submenus
 nav: true
 nav_order: 5
-dropdown: true
+dropdown: false
 children: 
-    - title: #publications
-      permalink: /publications/
+    - title: cv
+      permalink: /assets/pdf/ilona_cv.pdf
     - title: #divider
     - title: #projects
       permalink: /projects/
---- -->
+---
