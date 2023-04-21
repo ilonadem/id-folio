@@ -15,9 +15,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming PhD candidate in Computing and Mathematical Sciences (CMS) at Caltech, co-advised by [Georgia Gkioxari]() and [Pietro Perona](). Previously, I graduated from Harvard with a bachelor's degree in physics, where I was fortunate to work with [Michael Brenner](https://brennergroup.seas.harvard.edu/?_gl=1*1g3aqx*_ga*MTIyMDQ2ODA0Ny4xNjgxMzQ1MDYw*_ga_Q97GE6JKJ9*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..*_ga_FNNHYP076Y*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..). 
+I am an incoming PhD candidate in Computing and Mathematical Sciences (CMS) at Caltech, co-advised by [Georgia Gkioxari]() and [Pietro Perona](). This May, I will graduate from Harvard with a bachelor's degree in physics, where I have been fortunate to work with [Michael Brenner](https://brennergroup.seas.harvard.edu/?_gl=1*1g3aqx*_ga*MTIyMDQ2ODA0Ny4xNjgxMzQ1MDYw*_ga_Q97GE6JKJ9*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..*_ga_FNNHYP076Y*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..). 
 
-I'm interested in computer vision problems involving 3D scene representations and pose detection.
+I'm interested in computer vision problems involving 3D scene representations and pose detection, self-supervised learning, and applications to neurological assessments and clinical diagnostics.
 <!-- I'm excited by scene representations, neurological assessment algorithms, and pose estimation, and the ability of such models to have a direct, positive impact on human lives.  -->
 
 My graduate research will be funded by the [NSF Graduate Research Fellowship]() and the [Caltech EAS Chair Scholarship]().
