@@ -5,7 +5,7 @@ permalink: /projects/
 description: past + ongoing.
 nav: true
 nav_order: 2
-display_categories: [internships/research, course projects, fun/misc]
+display_categories: [internships/research, fun/misc]
 horizontal: false
 ---
 

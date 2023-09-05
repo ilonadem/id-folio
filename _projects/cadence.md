@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 title: surrogate modeling
 description: Surrogate models for faster SPICE and PWL simulation of power supply circuits
 img: assets/img/pspice.jpg
 importance: 5
 category: internships/research
----
+--- -->
 *[Internship project for Cadence Design Systems]*
 
 **Goal:** Automate the development of surrogate models for generic power supply circuits based on SPICE simulation data.

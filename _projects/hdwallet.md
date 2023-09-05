@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 title: hierarchical determinisitc wallets
 description: Hierarchical deterministic wallet implementation for secure crypto holding platform
 img: assets/img/hd-wallet.png
 importance: 5
 category: internships/research
----
+--- -->
 
 *[Project for Dreams-AI, a UK-based startup]*
 

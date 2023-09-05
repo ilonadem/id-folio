@@ -5,6 +5,7 @@ description: A Guide for Students by Students
 img: assets/img/negot.png
 importance: 2
 category: fun/misc
+redirect: https://www.pon.harvard.edu/events/book-talk-understanding-others-through-negotiation/
 ---
 **We Wrote a Book!**
 

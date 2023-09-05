@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 title: replacing backprop
 description: training w/ synthetic gradients, forward gradients, and random projections 
 img: assets/img/backprop.png
 importance: 2
 category: internships/research
----
+--- -->
 *[Project for Disney Research Studios]*
 
 **Goal:** Efficiently training a network on separate resources, some of which you might not necessarily trust. 
