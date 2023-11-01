@@ -17,10 +17,10 @@ social: true  # includes social icons at the bottom of the page
 
 I am a first-year PhD student in Computing and Mathematical Sciences (CMS) at Caltech, co-advised by [Georgia Gkioxari](https://gkioxari.github.io) and [Pietro Perona](https://www.eas.caltech.edu/people/perona). Previously, I graduated from Harvard with a bachelor's degree in physics, where I was fortunate to work with [Michael Brenner](https://brennergroup.seas.harvard.edu/?_gl=1*1g3aqx*_ga*MTIyMDQ2ODA0Ny4xNjgxMzQ1MDYw*_ga_Q97GE6JKJ9*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..*_ga_FNNHYP076Y*MTY4MTc4MjcwNC4xLjAuMTY4MTc4MjcwNC4wLjAuMA..). 
 
-I'm interested in computer vision problems involving 3D scene representations and pose detection, self-supervised learning, and applications to neurological assessments and clinical diagnostics.
+I'm interested in computer vision problems involving 3D scene representations and pose detection, self-supervised learning, and applications to neurological assessments and clinical diagnostics. Currently I am working on particle+object tracking in videos.
 <!-- I'm excited by scene representations, neurological assessment algorithms, and pose estimation, and the ability of such models to have a direct, positive impact on human lives.  -->
 
-My graduate research will be funded by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/contact/about-grfp/) and the [Caltech EAS Chair Scholarship](https://easchairscholars.caltech.edu/#:~:text=The%20EAS%20Chair%20Scholars%20Program,the%20EAS%20Division%20and%20Caltech.).
+My graduate research is funded by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/contact/about-grfp/) and the [Caltech EAS Chair Scholarship](https://easchairscholars.caltech.edu/#:~:text=The%20EAS%20Chair%20Scholars%20Program,the%20EAS%20Division%20and%20Caltech.).
 
 <!-- In my past life I was training to become a professional ballerina at the Bolshoi Ballet Academy in Moscow. Nowadays I'm often running, playing tennis, dancing, reading, journaling, and trying to find the perfect cup of coffee. I'm excited by the intersection of the arts with the sciences, and the "dance" of physics and math through topics of machine learning, computer vision, biology, and astronomy. -->
 
