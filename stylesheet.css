@@ -145,28 +145,9 @@
     font-size: 36px;
     line-height: 1.8;
     text-transform: uppercase;
+    color: #3d4a10;
+    text-align: center;
   }
-
-  .name span {
-    display: inline-block;
-  }
-
-  .name-space {
-    min-width: 0.25em;
-  }
-
-  /* per-letter wobble: vertical offset + slight rotation */
-  .name span:nth-child(1)  { transform: translateY(-4px) rotate(-3deg); }
-  .name span:nth-child(2)  { transform: translateY(3px)  rotate(2deg);  }
-  .name span:nth-child(3)  { transform: translateY(-2px) rotate(-1deg); }
-  .name span:nth-child(4)  { transform: translateY(5px)  rotate(3deg);  }
-  .name span:nth-child(5)  { transform: translateY(-3px) rotate(-2deg); }
-  .name span:nth-child(7)  { transform: translateY(4px)  rotate(2deg);  }
-  .name span:nth-child(8)  { transform: translateY(-5px) rotate(-3deg); }
-  .name span:nth-child(9)  { transform: translateY(2px)  rotate(1deg);  }
-  .name span:nth-child(10) { transform: translateY(-4px) rotate(3deg);  }
-  .name span:nth-child(11) { transform: translateY(3px)  rotate(-2deg); }
-  .name span:nth-child(12) { transform: translateY(-1px) rotate(2deg);  }
 
   .main-container {
     max-width: 1100px;
@@ -316,6 +297,29 @@
       width: 100%;
       min-width: unset;
       height: 180px;
+    }
+    /* Name: scale down on small screens */
+    .name {
+      font-size: min(36px, 9vw);
+    }
+    /* Bio: headshot above text */
+    .bio-row {
+      display: flex;
+      flex-direction: column;
+    }
+    .bio-image-td {
+      order: -1;
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align: center;
+      padding: 0 0 12px 0 !important;
+    }
+    .bio-image-td img {
+      max-width: 180px;
+    }
+    .bio-text-td {
+      width: 100% !important;
+      max-width: 100% !important;
     }
   }
   
