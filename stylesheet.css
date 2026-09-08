@@ -82,18 +82,20 @@
        'Roboto', Arial, sans-serif
        'Open Sans', Arial, sans-serif
        'FS Me', Arial, sans-serif            (commercial font — requires license)
-       'Avenir Next', 'Avenir', sans-serif   (system font — Apple devices only)  */
+       'Avenir Next', 'Avenir', sans-serif   (system font — Apple devices only)
+       ui-serif, Georgia, ...                (system serif — New York on Apple, Georgia elsewhere)  */
     /* --main-font: 'Lora', Georgia, serif; */
     /* --main-font: 'EB Garamond', Georgia, serif; */
     /* --main-font: 'Caudex', Georgia, serif; */
     /* --main-font: 'Kepler Std', Georgia, serif; */
     /* --main-font: 'Manrope', Verdana, sans-serif; */
     /* --main-font: 'Poppins', Verdana, sans-serif; */
-    --main-font: 'Raleway', Verdana, sans-serif;
+    /* --main-font: 'Raleway', Verdana, sans-serif; */
     /* --main-font: 'Roboto', Arial, sans-serif; */
     /* --main-font: 'Open Sans', Arial, sans-serif; */
     /* --main-font: 'FS Me', Arial, sans-serif; */
     /* --main-font: 'Avenir Next', 'Avenir', sans-serif; */
+    --main-font: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   a {
@@ -115,6 +117,8 @@
   a {
     font-family: var(--main-font);
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   strong {
@@ -181,6 +185,60 @@
   .site-nav-link:hover {
     color: #3d4a10;
     background-color: #f2f5e4;
+  }
+
+  /* Wide screens: the nav becomes a vertical rail pinned to the left,
+     with the current section highlighted as you scroll. */
+  @media (min-width: 1000px) {
+    body {
+      padding-left: 200px;
+    }
+
+    .site-nav {
+      position: fixed;
+      top: 50%;
+      left: 0;
+      width: 200px;
+      transform: translateY(-50%);
+      background-color: transparent;
+      border-bottom: none;
+    }
+
+    .site-nav-inner {
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      gap: 2px;
+      max-width: none;
+      padding: 0 24px;
+      border-left: 1px solid #e2e8ca;
+    }
+
+    .site-nav-link {
+      padding: 7px 0 7px 15px;
+      margin-left: -1px;
+      border-left: 2px solid transparent;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.35;
+      white-space: normal;
+      color: #8d9a63;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .site-nav-link:hover {
+      color: #3d4a10;
+      background-color: transparent;
+      border-left-color: #d4ddb8;
+    }
+
+    .site-nav-link.is-active {
+      color: #3d4a10;
+      font-weight: 700;
+      border-left-color: #5c6e1a;
+      background-color: transparent;
+    }
   }
 
   .main-container {

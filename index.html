@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="site-nav">
+  <nav class="site-nav" aria-label="Section navigation">
     <div class="site-nav-inner">
       <a href="#home" class="site-nav-link">Home</a>
       <a href="#publications" class="site-nav-link">Publications</a>
@@ -252,6 +252,47 @@
     </p>
 
   </div>
+
+  <script>
+    // Highlights the nav link for whichever section is currently in view.
+    (function () {
+      var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav-link'));
+      var sections = links
+        .map(function (link) { return document.querySelector(link.getAttribute('href')); })
+        .filter(Boolean);
+      if (!sections.length) return;
+
+      function setActive(id) {
+        links.forEach(function (link) {
+          var on = link.getAttribute('href') === '#' + id;
+          link.classList.toggle('is-active', on);
+          if (on) {
+            link.setAttribute('aria-current', 'true');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      setActive(sections[0].id);
+
+      // A thin band across the middle of the viewport decides the active section.
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+      sections.forEach(function (section) { observer.observe(section); });
+
+      // The last section can be too short to reach the band, so pin it at the bottom.
+      window.addEventListener('scroll', function () {
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+          setActive(sections[sections.length - 1].id);
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 
 </html>
