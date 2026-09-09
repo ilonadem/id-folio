@@ -129,11 +129,31 @@
   }
 
   h2 {
-    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 18px 0;
     font-weight: normal;
     font-family: var(--main-font);
     font-size: 26px;
     color: #3d4a10;
+  }
+
+  /* Rule that runs off the end of each section heading. */
+  h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #c2d090;
+  }
+
+  /* Line-art figure parked at the far end of each section rule. */
+  .doodle {
+    order: 1;
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    color: #97a862;
   }
 
   .papertitle {
@@ -143,14 +163,13 @@
   }
 
   .name {
-    padding-top: 20px;
-    margin: 0;
+    padding-top: 4px;
+    margin: 0 0 14px 0;
     font-family: var(--main-font);
     font-size: 36px;
-    line-height: 1.8;
-    text-transform: uppercase;
+    line-height: 1.2;
     color: #3d4a10;
-    text-align: center;
+    text-align: left;
   }
 
   html {
@@ -287,16 +306,18 @@
   .paper-box {
     display: flex;
     flex-direction: column;
-    background-color: #fafcf5;
-    border: 1px solid #d4ddb8;
-    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid #c2d090;
     padding: 18px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    transition: border-color 0.15s ease;
+  }
+
+  .paper-box:hover {
+    border-color: #5c6e1a;
   }
 
   .paper-img {
     width: 100%;
-    border-radius: 8px;
     object-fit: contain;
     margin-bottom: 14px;
   }
@@ -304,7 +325,7 @@
   /* Publications: consistent image height, centered text */
   .papers-grid .paper-img {
     height: 190px;
-    background-color: #fdfdfd;
+    background-color: transparent;
   }
 
   .papers-grid .paper-content {
@@ -315,27 +336,46 @@
     justify-content: center;
   }
 
-  /* Other Adventures: single column, image on left */
+  /* Other Adventures: side by side in one row, lower profile than the
+     publication cards since this is secondary material. */
   .adventures-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 16px;
     margin-top: 16px;
   }
 
   .adventures-grid .paper-box {
     flex-direction: row;
     align-items: flex-start;
-    gap: 20px;
+    gap: 14px;
+    padding: 14px;
   }
 
   .adventures-grid .paper-img {
-    width: 130px;
-    min-width: 130px;
-    height: 160px;
+    width: 96px;
+    min-width: 96px;
+    height: 118px;
     object-fit: cover;
     background-color: #f2f5e8;
     margin-bottom: 0;
+  }
+
+  /* The anchors carry their own 16px, so they need naming too. */
+  .adventures-grid .paper-content,
+  .adventures-grid .paper-content a {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .adventures-grid .papertitle {
+    font-size: 15px;
+  }
+
+  .adventures-grid .link-pill {
+    font-size: 13px;
+    padding: 2px 10px;
   }
 
   .paper-content {
@@ -381,12 +421,7 @@
     display: flex;
     align-items: baseline;
     gap: 20px;
-    padding: 11px 0;
-    border-bottom: 1px solid #d4ddb8;
-  }
-
-  .news-item:first-child {
-    border-top: 1px solid #d4ddb8;
+    padding: 7px 0;
   }
 
   .news-date {
@@ -412,6 +447,10 @@
       padding: 16px;
     }
     .papers-grid {
+      grid-template-columns: 1fr;
+    }
+    .adventures-grid {
+      grid-auto-flow: row;
       grid-template-columns: 1fr;
     }
     .adventures-grid .paper-box {
