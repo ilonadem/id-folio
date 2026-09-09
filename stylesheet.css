@@ -441,13 +441,20 @@
 
   .writing-list {
     margin-top: 8px;
+    padding-left: 22px;
+    list-style: disc;
+  }
+
+  .writing-list li {
+    margin-bottom: 2px;
+    color: #97a862;
   }
 
   .writing-item {
     display: flex;
     align-items: baseline;
     gap: 24px;
-    padding: 9px 4px;
+    padding: 6px 4px;
     color: #5c6e1a;
     transition: background-color 0.15s ease;
   }
@@ -612,8 +619,24 @@
   }
 
   @media (max-width: 650px) {
+    /* Side by side, the note gets squeezed into a ribbon on a phone, so it
+       drops under the title instead. */
+    .writing-item {
+      flex-direction: column;
+      gap: 3px;
+      padding: 7px 4px;
+    }
+    .writing-note {
+      max-width: none;
+      margin-left: 0;
+      text-align: left;
+    }
+    .writing-list {
+      padding-left: 20px;
+    }
+
     .essay {
-      padding: 24px 16px 60px 16px;
+      padding: 24px 20px 60px 20px;
     }
     .essay-title {
       font-size: 24px;
