@@ -279,6 +279,26 @@
     margin-top: 16px;
   }
 
+  /* Fun: blurb on the left, photos on the right, echoing the bio row. */
+  .fun-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 32px;
+    align-items: start;
+  }
+
+  .fun-text p:first-child {
+    margin-top: 0;
+  }
+
+  .fun-layout .photo-grid {
+    margin-top: 0;
+  }
+
+  .fun-layout .fun-photo {
+    height: 180px;
+  }
+
   .photo-frame {
     display: flex;
     background-color: #ffffff;
@@ -413,6 +433,196 @@
     font-size: 16px;
   }
 
+  /* Writing: one essay per line, left-aligned. */
+  .writing-intro {
+    margin: 0 0 18px 0;
+    line-height: 1.6;
+  }
+
+  .writing-list {
+    margin-top: 8px;
+  }
+
+  .writing-item {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    padding: 9px 4px;
+    color: #5c6e1a;
+    transition: background-color 0.15s ease;
+  }
+
+  .writing-item:hover {
+    background-color: #f7f9ee;
+  }
+
+  .writing-title {
+    font-size: 17px;
+    line-height: 1.4;
+  }
+
+  .writing-item:hover .writing-title {
+    text-decoration: underline;
+  }
+
+  /* Pushed to the far end of the row, quieter than the title. */
+  .writing-note {
+    flex: 0 0 auto;
+    max-width: 34%;
+    margin-left: auto;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #7a8a3a;
+    text-align: right;
+  }
+
+  /* Essay pages: a single reading column, same type as the rest of the site. */
+  .essay-body {
+    margin: 0;
+    /* Overrides the left rail's gutter — essay pages have no side nav. */
+    padding-left: 0;
+    background-color: #ffffff;
+  }
+
+  .essay {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px 24px;
+  }
+
+  .essay-back {
+    margin: 0 0 32px 0;
+    font-size: 14px;
+  }
+
+  .essay-title {
+    margin: 0 0 6px 0;
+    font-family: var(--main-font);
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #3d4a10;
+  }
+
+  .essay-byline {
+    margin: 0 0 32px 0;
+    font-size: 15px;
+    color: #7a8a3a;
+  }
+
+  .essay p {
+    margin: 0 0 20px 0;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  /* Set-off quotations: indented and a touch smaller, no quote marks added. */
+  .essay-quote {
+    margin: 0 0 20px 0;
+    padding-left: 24px;
+    border-left: 2px solid #e2e8ca;
+  }
+
+  .essay-quote p {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+
+  .essay-quote p:last-child {
+    margin-bottom: 0;
+  }
+
+  .essay-quote-attr {
+    color: #7a8a3a;
+  }
+
+  .essay-figure {
+    margin: 28px 0;
+  }
+
+  .essay-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .essay-figure figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #7a8a3a;
+  }
+
+  /* Stand-in until the real figure is dropped in. */
+  .essay-figure-todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    padding: 24px;
+    border: 2px dashed #c2d090;
+    border-radius: 6px;
+    background-color: #f7f9ee;
+    color: #7a8a3a;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* Links to the works under discussion, dropped into the body text. The
+     hairline keeps them findable inside a dense serif paragraph, where color
+     alone is easy to miss. */
+  .essay p a,
+  .essay-citations a {
+    border-bottom: 1px solid #c2d090;
+  }
+
+  .essay p a:hover,
+  .essay-citations a:hover {
+    border-bottom-color: #3d4a10;
+  }
+
+  /* The back link sits outside the prose and needs no underline. */
+  .essay p.essay-back a {
+    border-bottom: none;
+  }
+
+  /* Citation URLs are long; let them break rather than push the column wide. */
+  .essay-citations a {
+    word-break: break-word;
+  }
+
+  .essay-heading {
+    display: block;
+    margin: 44px 0 14px 0;
+    font-size: 20px;
+    color: #3d4a10;
+  }
+
+  /* No rule after the heading here, unlike the section headings on the index. */
+  .essay-heading::after {
+    content: none;
+  }
+
+  .essay-citations p {
+    font-size: 15px;
+    line-height: 1.6;
+    /* Hanging indent, as in a works-cited list. */
+    padding-left: 32px;
+    text-indent: -32px;
+  }
+
+  @media (max-width: 650px) {
+    .essay {
+      padding: 24px 16px 60px 16px;
+    }
+    .essay-title {
+      font-size: 24px;
+    }
+    .essay p {
+      font-size: 16px;
+    }
+  }
+
   .news-list {
     margin-top: 8px;
   }
@@ -460,6 +670,10 @@
       width: 100%;
       min-width: unset;
       height: 180px;
+    }
+    .fun-layout {
+      grid-template-columns: 1fr;
+      gap: 8px;
     }
     .photo-grid {
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
