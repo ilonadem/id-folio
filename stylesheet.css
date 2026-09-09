@@ -635,8 +635,9 @@
       padding-left: 20px;
     }
 
+    /* A real gutter, so the prose is not flush against the phone bezel. */
     .essay {
-      padding: 24px 20px 60px 20px;
+      padding: 24px 24px 60px 24px;
     }
     .essay-title {
       font-size: 24px;
